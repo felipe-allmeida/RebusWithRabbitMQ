@@ -25,13 +25,13 @@ This instructions will get you a copy of the project up and running on your loca
 
 ### Prerequisites
 
-* [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+* [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) - Cross-Platform version of .NET for building websites, services and console apps.
 * [Rebus](https://github.com/rebus-org/Rebus) - Message Bus for .NET
 * [RabbitMQ]() - Message Broker
 ```
 You can either use a RabbitMQ installed on your local machine or the docker image 'rabbitmq-management' at docker hub.
 ```
-* Docker (if you choose to use the rabbitmq-management image)
+* [Docker](https://www.docker.com/) - if you choose to use the rabbitmq-management image
 
 ### Configuring
 
