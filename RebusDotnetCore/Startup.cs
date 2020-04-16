@@ -44,9 +44,7 @@ namespace RebusDotnetCore
             var mqQueue = "queue.exg";
 
             services.AddRebus(configure => configure
-                //.Transport(t => t.UseInMemoryTransport(new InMemNetwork(), mqQueue))
                 .Transport(t => t.UseRabbitMq("amqp://localhost:5672", mqQueue))
-                //.Subscriptions(s => s.StoreInMemory())
                 .Routing(r =>
                 {
                     r.TypeBased()
