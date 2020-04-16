@@ -1,4 +1,4 @@
-# Saga Pattern using Rebus With RabbitMQ
+# Saga Pattern using Rebus with RabbitMQ
 
 I created this project as a example for the Saga pattern using Rebus with RabbitMQ.
 
